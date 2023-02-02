@@ -73,7 +73,9 @@ class _MyHomePageState extends State<MyHomePage> {
     print("We have received: ${message}");
   }
 
-  _onError(Object err) {}
+  _onError(Object err) {
+    print("we have an error: ${err}");
+  }
 
   @override
   void initState() {
