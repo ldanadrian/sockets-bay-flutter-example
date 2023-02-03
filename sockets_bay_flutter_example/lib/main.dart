@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Container(
-                color: Colors.blue,
+                color: Colors.lightBlue.shade100,
                 height: 200,
                 child: ListView.builder(
                     itemCount: messages.length,
